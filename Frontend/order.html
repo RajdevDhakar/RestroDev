@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restro Dev - Create Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Restro Dev</h1>
+    <nav>
+        <a href="customer.html">Add Customer</a>
+        <a href="order.html">Create Order</a>
+        <a href="kitchen.html">Kitchen Orders</a>
+        <a href="frontdesk.html">Front Desk</a>
+        <a href="billing.html">Billing</a>
+    </nav>
+
+    <section id="orderSection">
+        <h2>Create Order</h2>
+        <form id="orderForm">
+            <input type="number" id="orderCustomerId" placeholder="Customer ID" required>
+            <input type="number" id="orderCuisineId" placeholder="Cuisine ID" required>
+            <input type="datetime-local" id="orderDate" required>
+            <button type="submit">Add Order</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
